@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KEVIN_KR // COGNITIVE INTERFACE</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+</head>
+<body>
+
+    <div class="noise-overlay"></div>
+    <div class="scanlines"></div>
+    <div class="cursor-dot" id="cursor-dot"></div>
+    <div class="cursor-ring" id="cursor-ring"></div>
+
+    <div id="intro-screen">
+        <div class="intro-content">
+            <div class="system-logs">
+                <p>> BIOS_CHECK... OK</p>
+                <p>> MEMORY_ALLOC... 98%</p>
+                <p>> NEURAL_LINK... ESTABLISHED</p>
+            </div>
+            <h1 class="glitch-text" data-text="INITIALIZING KEVIN_KR.AI">INITIALIZING KEVIN_KR.AI</h1>
+            <div class="loader-bar"><div class="fill"></div></div>
+        </div>
+    </div>
+
+    <div id="webgl-container"></div>
+
+    <div id="ui-layer">
+        
+        <header class="hud-header">
+            <div class="brand">KEVIN K R <span class="status-blink">●</span></div>
+            <div class="sys-time">SYSTEM_ACTIVE</div>
+        </header>
+
+        <div class="scroll-progress">
+            <svg viewBox="0 0 100 100">
+                <circle cx="50" cy="50" r="45" class="bg-ring"></circle>
+                <circle cx="50" cy="50" r="45" class="progress-ring"></circle>
+            </svg>
+            <span id="module-counter">00</span>
+        </div>
+
+        <main id="modules-wrapper">
+
+            <section class="module active" data-index="0">
+                <div class="content-panel hero-panel">
+                    <div class="decorative-bracket top-left"></div>
+                    <div class="decorative-bracket bottom-right"></div>
+                    <h2 class="hero-title scramble-hover">CREATIVE<br>TECHNOLOGIST</h2>
+                    <p class="hero-sub">IMMERSIVE WEBGL SYSTEMS // EXPERIMENTAL UI</p>
+                    <div class="scroll-hint">
+                        <span>SCROLL TO INITIALIZE DATA</span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="module" data-index="1">
+                <div class="content-panel profile-panel">
+                    <div class="panel-header">
+                        <h3>// SYS_PROFILE</h3>
+                        <div class="panel-line"></div>
+                    </div>
+                    <div class="stats-grid">
+                        <div class="stat-box">
+                            <span class="label">CGPA</span>
+                            <span class="value counter" data-target="9.19">0.00</span>
+                        </div>
+                        <div class="stat-box">
+                            <span class="label">ARCHITECTURE</span>
+                            <span class="value">WordPress Plugin</span>
+                        </div>
+                        <div class="stat-box">
+                            <span class="label">PHILOSOPHY</span>
+                            <span class="value">Clean Code</span>
+                        </div>
+                    </div>
+                    <div class="tags-orbit">
+                        <span class="tag">Backend</span>
+                        <span class="tag">WebGL</span>
+                        <span class="tag">Node.js</span>
+                        <span class="tag">Python</span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="module" data-index="2">
+                <div class="content-panel projects-panel">
+                    <div class="panel-header">
+                        <h3>// PROJECT_DB</h3>
+                        <div class="panel-line"></div>
+                    </div>
+                    <ul class="project-list">
+                        <li class="project-item" data-img="hybrid">
+                            <span class="p-id">01</span>
+                            <span class="p-name scramble-hover">ORPHAN CROPS HYBRIDISATION</span>
+                            <span class="p-badge">AI/ML</span>
+                        </li>
+                        <li class="project-item" data-img="nexa">
+                            <span class="p-id">02</span>
+                            <span class="p-name scramble-hover">NEXASENSE</span>
+                            <span class="p-badge">IoT</span>
+                        </li>
+                        <li class="project-item" data-img="evalion">
+                            <span class="p-id">03</span>
+                            <span class="p-name scramble-hover">EVALION</span>
+                            <span class="p-badge">SAAS</span>
+                        </li>
+                        <li class="project-item" data-img="genetics">
+                            <span class="p-id">04</span>
+                            <span class="p-name scramble-hover">INTERACTIVE GENETICS</span>
+                            <span class="p-badge">WEBGL</span>
+                        </li>
+                        <li class="project-item" data-img="cake">
+                            <span class="p-id">05</span>
+                            <span class="p-name scramble-hover">CAKE SHOWCASE</span>
+                            <span class="p-badge">3D</span>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="module" data-index="3">
+                <div class="content-panel timeline-panel">
+                    <div class="panel-header">
+                        <h3>// CHRONOLOGY</h3>
+                        <div class="panel-line"></div>
+                    </div>
+                    <div class="timeline-track">
+                        <div class="timeline-event">
+                            <div class="t-year">2025</div>
+                            <div class="t-title">HACKXELERATE WINNER</div>
+                            <div class="t-desc">National Level</div>
+                        </div>
+                        <div class="timeline-event">
+                            <div class="t-year">2024</div>
+                            <div class="t-title">IEEE IDEATHON</div>
+                            <div class="t-desc">Innovation Award</div>
+                        </div>
+                        <div class="timeline-event">
+                            <div class="t-year">2024</div>
+                            <div class="t-title">ICT YOUTH TALK</div>
+                            <div class="t-desc">Speaker</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="module" data-index="4">
+                <div class="content-panel contact-panel">
+                    <div class="terminal-window">
+                        <div class="term-header">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                            <span>root@kevin-kr:~</span>
+                        </div>
+                        <div class="term-body">
+                            <div class="output-log">
+                                <p>> INITIATING HANDSHAKE PROTOCOL...</p>
+                                <p>> SECURE CONNECTION READY.</p>
+                            </div>
+                            <form id="command-form">
+                                <div class="input-line">
+                                    <span class="prompt">root@kevin:~$</span>
+                                    <input type="text" placeholder="enter_email" id="email-input">
+                                </div>
+                                <div class="input-line">
+                                    <span class="prompt">root@kevin:~$</span>
+                                    <input type="text" placeholder="enter_message" id="msg-input">
+                                </div>
+                                <button type="submit" class="submit-btn">EXECUTE_SEND()</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
