@@ -1,0 +1,1 @@
+(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,180276,e=>{"use strict";e.s([],91420),e.i(91420);var r=e.i(312016);e.s(["KTX2TextureLoaderWrapper",()=>r.KTX2TextureLoaderWrapper],180276)}]);

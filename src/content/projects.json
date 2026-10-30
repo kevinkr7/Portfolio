@@ -1,0 +1,970 @@
+{
+  "cards": [
+    {
+      "slug": "noctalink",
+      "name": "",
+      "nameInk": "#141414",
+      "image": "/assets/lite-hero/Noctalink.webp",
+      "ogImage": {
+        "url": "/assets/projects/noctalink/preview-1.webp",
+        "alt": "NoctaLink - An AI cognitive twin for sleep and focus",
+        "width": 1920,
+        "height": 1080
+      },
+      "hero3d": "/assets/projects/noctalink/hero-3d.webp",
+      "editorial": {
+        "overline": "PROJECT",
+        "title": "NoctaLink",
+        "year": 2026,
+        "yearRange": "2026",
+        "tagline": "An AI cognitive twin for sleep and focus",
+        "description": "NoctaLink connects sleep and EEG biomarkers with behavioral check-ins to model cognitive workload, fatigue, and readiness. Its dashboard pairs neuro-cognitive analytics with an interactive 3D Cognitive Twin and personalized recovery guidance.",
+        "roleTitles": [
+          "Full-stack Developer"
+        ],
+        "roleDescription": "NoctaLink connects sleep and EEG biomarkers with behavioral check-ins to model cognitive workload, fatigue, and readiness. Its dashboard pairs neuro-cognitive analytics with an interactive 3D Cognitive Twin and personalized recovery guidance.",
+        "stack": [
+          "React",
+          "TypeScript",
+          "FastAPI",
+          "Supabase",
+          "Three.js"
+        ],
+        "liveUrl": "https://noctalink.kevinography.in",
+        "sourceCode": "https://github.com/kevinkr7/NoctaLink",
+        "section01": {
+          "title": "See the signals behind your day",
+          "description": "Explore sleep architecture, EEG-derived features, cognitive readiness, fatigue trends, and check-ins in one experience. The 3D Cognitive Twin provides a visual state overview while the analytics connect longitudinal patterns to actionable recovery suggestions."
+        },
+        "section02": {
+          "title": "Technology stack",
+          "description": "A full-stack analytics platform combining a typed React interface, WebGL-based 3D visualization, a FastAPI processing layer, and Supabase-backed identity and persistence.",
+          "items": [
+            {
+              "name": "React",
+              "role": "Frontend experience",
+              "icon": "react"
+            },
+            {
+              "name": "Three.js",
+              "role": "3D Cognitive Twin",
+              "icon": "threejs"
+            },
+            {
+              "name": "FastAPI",
+              "role": "REST API and processing",
+              "icon": "fastapi"
+            },
+            {
+              "name": "Supabase",
+              "role": "Auth and data storage",
+              "icon": "supabase"
+            },
+            {
+              "name": "Scikit-learn",
+              "role": "EEG and ML pipeline",
+              "icon": "scikitlearn"
+            }
+          ]
+        },
+        "section03": {
+          "title": "What’s next?",
+          "description": "Extend the cognitive-twin workflow through validated data collection, carefully evaluated baseline models, and better longitudinal comparisons between sleep, EEG-derived features, and user-reported focus. Present clinical or predictive claims only to the extent supported by evaluation.",
+          "nextProject": "NexaSense"
+        },
+        "challenges": "Explore sleep architecture, EEG-derived features, cognitive readiness, fatigue trends, and check-ins in one experience. The 3D Cognitive Twin provides a visual state overview while the analytics connect longitudinal patterns to actionable recovery suggestions.\n\nA full-stack analytics platform combining a typed React interface, WebGL-based 3D visualization, a FastAPI processing layer, and Supabase-backed identity and persistence."
+      },
+      "gallery": [
+        {
+          "url": "/assets/projects/noctalink/preview-1.webp",
+          "alt": "NoctaLink Preview 1",
+          "aspect": 1.7777777777777777
+        },
+        {
+          "url": "/assets/projects/noctalink/preview-2.webp",
+          "alt": "NoctaLink Preview 2",
+          "aspect": 1.7777777777777777
+        },
+        {
+          "url": "/assets/projects/noctalink/preview-3.webp",
+          "alt": "NoctaLink Preview 3",
+          "aspect": 1.7777777777777777
+        },
+        {
+          "url": "/assets/projects/noctalink/preview-4.webp",
+          "alt": "NoctaLink Preview 4",
+          "aspect": 1.7777777777777777
+        }
+      ]
+    },
+    {
+      "slug": "nexasense",
+      "name": "",
+      "nameInk": "#e0e0e0",
+      "image": "/assets/lite-hero/Nexasense.webp",
+      "ogImage": {
+        "url": "/assets/projects/nexasense/preview-1.webp",
+        "alt": "NexaSense - Turn handwritten notes into exam-ready knowledge",
+        "width": 1920,
+        "height": 1080
+      },
+      "hero3d": "/assets/projects/nexasense/hero-3d.webp",
+      "editorial": {
+        "overline": "PROJECT",
+        "title": "NexaSense",
+        "year": 2025,
+        "yearRange": "2025–2026",
+        "tagline": "Turn handwritten notes into exam-ready knowledge",
+        "description": "NexaSense transforms handwritten and digital study material into personalized learning resources using OCR, NLP summarization, semantic retrieval, and knowledge verification. It aims to make notes clearer, more reliable, and more useful for revision.",
+        "roleTitles": [
+          "Backend & AI/NLP Developer"
+        ],
+        "roleDescription": "NexaSense transforms handwritten and digital study material into personalized learning resources using OCR, NLP summarization, semantic retrieval, and knowledge verification. It aims to make notes clearer, more reliable, and more useful for revision.",
+        "stack": [
+          "React",
+          "TypeScript",
+          "FastAPI",
+          "Firebase",
+          "ChromaDB"
+        ],
+        "liveUrl": "https://nexasense.kevinography.in",
+        "sourceCode": "https://github.com/kevinkr7/Nexasense",
+        "section01": {
+          "title": "From raw notes to usable knowledge",
+          "description": "Upload handwritten or digital notes, extract text through OCR, generate concise summaries, simplify difficult passages, and retrieve related material from a curated knowledge base. Learning preferences and progress tracking are intended to make the study workflow more personal."
+        },
+        "section02": {
+          "title": "Technology stack",
+          "description": "A React and TypeScript learning interface connected to a Python API and AI pipeline, with Firebase for identity and learning data and a vector store for semantic retrieval.",
+          "items": [
+            {
+              "name": "React",
+              "role": "Frontend UI",
+              "icon": "react"
+            },
+            {
+              "name": "FastAPI",
+              "role": "Backend and AI pipeline",
+              "icon": "fastapi"
+            },
+            {
+              "name": "OpenCV",
+              "role": "Text extraction and preprocessing",
+              "icon": "opencv"
+            },
+            {
+              "name": "Transformers",
+              "role": "Summarization and simplification",
+              "icon": "transformers"
+            },
+            {
+              "name": "Firebase",
+              "role": "Auth and data storage",
+              "icon": "firebase"
+            }
+          ]
+        },
+        "section03": {
+          "title": "What’s next?",
+          "description": "Develop the planned mind-map experience, broaden supported OCR languages and study formats, and strengthen evaluation of factual corrections and retrieval quality. Assessment integration with Evalion can help connect study activity to learning outcomes.",
+          "nextProject": "CrossWise"
+        },
+        "challenges": "Upload handwritten or digital notes, extract text through OCR, generate concise summaries, simplify difficult passages, and retrieve related material from a curated knowledge base. Learning preferences and progress tracking are intended to make the study workflow more personal.\n\nA React and TypeScript learning interface connected to a Python API and AI pipeline, with Firebase for identity and learning data and a vector store for semantic retrieval."
+      },
+      "gallery": [
+        {
+          "url": "/assets/projects/nexasense/preview-1.webp",
+          "alt": "NexaSense Preview 1",
+          "aspect": 1.7777777777777777
+        },
+        {
+          "url": "/assets/projects/nexasense/preview-2.webp",
+          "alt": "NexaSense Preview 2",
+          "aspect": 1.7777777777777777
+        },
+        {
+          "url": "/assets/projects/nexasense/preview-3.webp",
+          "alt": "NexaSense Preview 3",
+          "aspect": 1.7777777777777777
+        },
+        {
+          "url": "/assets/projects/nexasense/preview-4.webp",
+          "alt": "NexaSense Preview 4",
+          "aspect": 1.7777777777777777
+        }
+      ]
+    },
+    {
+      "slug": "crosswise",
+      "name": "",
+      "nameInk": "#141414",
+      "image": "/assets/lite-hero/CrossWise.webp",
+      "ogImage": {
+        "url": "/assets/projects/crosswise/preview-1.webp",
+        "alt": "CrossWise - Predict maize hybrid traits from genomic and environmental data",
+        "width": 1920,
+        "height": 1080
+      },
+      "hero3d": "/assets/projects/crosswise/hero-3d.webp",
+      "editorial": {
+        "overline": "PROJECT",
+        "title": "CrossWise",
+        "year": 2025,
+        "yearRange": "2025",
+        "tagline": "Predict maize hybrid traits from genomic and environmental data",
+        "description": "CrossWise evaluates virtual maize crosses using SNP markers, biological features, and environmental context. Its machine-learning pipeline predicts multiple hybrid traits, ranks candidate combinations, and uses SHAP explanations to make model outputs easier to interpret.",
+        "roleTitles": [
+          "Co-creator / ML & full-stack contributor"
+        ],
+        "roleDescription": "CrossWise evaluates virtual maize crosses using SNP markers, biological features, and environmental context. Its machine-learning pipeline predicts multiple hybrid traits, ranks candidate combinations, and uses SHAP explanations to make model outputs easier to interpret.",
+        "stack": [
+          "Python",
+          "Random Forest",
+          "Flask",
+          "MongoDB",
+          "SHAP"
+        ],
+        "liveUrl": "https://crosswise.kevinography.in",
+        "sourceCode": "https://github.com/kevinkr7/CrossWise",
+        "section01": {
+          "title": "Explore promising virtual crosses",
+          "description": "Model candidate parent combinations from SNP data, derive genomic compatibility features, and incorporate environmental factors such as temperature, rainfall, and humidity. Results can rank candidates across yield potential, drought tolerance, disease resistance, grain quality, and maturity while providing feature-level explanations."
+        },
+        "section02": {
+          "title": "Technology stack",
+          "description": "An ML-backed web platform combining a prediction API, an interface for exploring candidate crosses, and model-explanation tooling to support more transparent breeding decisions.",
+          "items": [
+            {
+              "name": "Scikit-learn",
+              "role": "Prediction pipeline",
+              "icon": "scikitlearn"
+            },
+            {
+              "name": "Random Forest",
+              "role": "Multi-output trait prediction",
+              "icon": "randomforest"
+            },
+            {
+              "name": "SHAP",
+              "role": "Model explainability",
+              "icon": "shap"
+            },
+            {
+              "name": "Flask",
+              "role": "REST API",
+              "icon": "flask"
+            },
+            {
+              "name": "MongoDB",
+              "role": "Application data",
+              "icon": "mongodb"
+            }
+          ]
+        },
+        "section03": {
+          "title": "What’s next?",
+          "description": "Prioritize reproducible evaluation across held-out crosses and environments, calibrate confidence estimates, and document dataset limitations before using rankings to guide breeding decisions.",
+          "nextProject": "Cadenza"
+        },
+        "challenges": "Model candidate parent combinations from SNP data, derive genomic compatibility features, and incorporate environmental factors such as temperature, rainfall, and humidity. Results can rank candidates across yield potential, drought tolerance, disease resistance, grain quality, and maturity while providing feature-level explanations.\n\nAn ML-backed web platform combining a prediction API, an interface for exploring candidate crosses, and model-explanation tooling to support more transparent breeding decisions."
+      },
+      "gallery": [
+        {
+          "url": "/assets/projects/crosswise/preview-1.webp",
+          "alt": "CrossWise Preview 1",
+          "aspect": 1.7777777777777777
+        },
+        {
+          "url": "/assets/projects/crosswise/preview-2.webp",
+          "alt": "CrossWise Preview 2",
+          "aspect": 1.7777777777777777
+        },
+        {
+          "url": "/assets/projects/crosswise/preview-3.webp",
+          "alt": "CrossWise Preview 3",
+          "aspect": 1.7777777777777777
+        },
+        {
+          "url": "/assets/projects/crosswise/preview-4.webp",
+          "alt": "CrossWise Preview 4",
+          "aspect": 1.7777777777777777
+        }
+      ]
+    },
+    {
+      "slug": "cadenza",
+      "name": "",
+      "nameInk": "#e0e0e0",
+      "image": "/assets/lite-hero/Cadenza.webp",
+      "ogImage": {
+        "url": "/assets/projects/cadenza/preview-1.webp",
+        "alt": "Cadenza - An AI vocal coach built around measurable progress",
+        "width": 1920,
+        "height": 1080
+      },
+      "hero3d": "/assets/projects/cadenza/hero-3d.webp",
+      "editorial": {
+        "overline": "PROJECT",
+        "title": "Cadenza",
+        "year": 2026,
+        "yearRange": "2026",
+        "tagline": "An AI vocal coach built around measurable progress",
+        "description": "Cadenza analyzes singing performances through pitch tracking, vocal-stem separation, tempo-aware alignment, and explainable scoring. A native Android app presents sessions and coaching, while a FastAPI backend powers acoustic analysis and a web showcase demonstrates the experience.",
+        "roleTitles": [
+          "Android Developer"
+        ],
+        "roleDescription": "Cadenza analyzes singing performances through pitch tracking, vocal-stem separation, tempo-aware alignment, and explainable scoring. A native Android app presents sessions and coaching, while a FastAPI backend powers acoustic analysis and a web showcase demonstrates the experience.",
+        "stack": [
+          "Kotlin",
+          "Jetpack Compose",
+          "FastAPI",
+          "Demucs",
+          "Librosa"
+        ],
+        "liveUrl": "https://cadenza.kevinography.in",
+        "sourceCode": "https://github.com/kevinkr7/Cadenza",
+        "section01": {
+          "title": "Turn every practice session into feedback",
+          "description": "Compare a singer's recording with a reference performance. Demucs separates vocals from accompaniment, pYIN tracks fundamental pitch, and Dynamic Time Warping aligns performances with different timing. A weighted score breaks feedback into pitch accuracy, timing/onset accuracy, and pitch stability, with Gemini-powered personalized coaching."
+        },
+        "section02": {
+          "title": "Technology stack",
+          "description": "A native Android client works with an audio-analysis API and DSP/ML pipeline, with a separate React-based web experience for the product showcase.",
+          "items": [
+            {
+              "name": "Kotlin",
+              "role": "Android application",
+              "icon": "kotlin"
+            },
+            {
+              "name": "FastAPI",
+              "role": "Acoustic analysis API",
+              "icon": "fastapi"
+            },
+            {
+              "name": "Demucs",
+              "role": "Vocal stem separation",
+              "icon": "demucs"
+            },
+            {
+              "name": "Librosa",
+              "role": "Pitch tracking",
+              "icon": "librosa"
+            },
+            {
+              "name": "Dynamic Time Warping",
+              "role": "Timing alignment",
+              "icon": "dtw"
+            }
+          ]
+        },
+        "section03": {
+          "title": "What’s next?",
+          "description": "Improve coaching consistency with repeatable practice tests, evaluate pitch and timing metrics against suitable references, and make feedback easier for singers to translate into their next practice session.",
+          "nextProject": "Harmonza"
+        },
+        "challenges": "Compare a singer's recording with a reference performance. Demucs separates vocals from accompaniment, pYIN tracks fundamental pitch, and Dynamic Time Warping aligns performances with different timing. A weighted score breaks feedback into pitch accuracy, timing/onset accuracy, and pitch stability, with Gemini-powered personalized coaching.\n\nA native Android client works with an audio-analysis API and DSP/ML pipeline, with a separate React-based web experience for the product showcase."
+      },
+      "gallery": [
+        {
+          "url": "/assets/projects/cadenza/preview-1.webp",
+          "alt": "Cadenza Preview 1",
+          "aspect": 1.7777777777777777
+        },
+        {
+          "url": "/assets/projects/cadenza/preview-2.webp",
+          "alt": "Cadenza Preview 2",
+          "aspect": 1.7777777777777777
+        },
+        {
+          "url": "/assets/projects/cadenza/preview-3.webp",
+          "alt": "Cadenza Preview 3",
+          "aspect": 1.7777777777777777
+        },
+        {
+          "url": "/assets/projects/cadenza/preview-4.webp",
+          "alt": "Cadenza Preview 4",
+          "aspect": 1.7777777777777777
+        }
+      ]
+    },
+    {
+      "slug": "harmonza",
+      "name": "",
+      "nameInk": "#141414",
+      "image": "/assets/lite-hero/Harmonza.webp",
+      "ogImage": {
+        "url": "/assets/projects/harmonza/preview-1.webp",
+        "alt": "Harmonza - Make music through natural hand gestures",
+        "width": 1920,
+        "height": 1080
+      },
+      "hero3d": "/assets/projects/harmonza/hero-3d.webp",
+      "editorial": {
+        "overline": "PROJECT",
+        "title": "Harmonza",
+        "year": 2026,
+        "yearRange": "2026",
+        "tagline": "Make music through natural hand gestures",
+        "description": "Harmonza is a computer-vision music interaction tool that recognizes hand gestures, maps them to chords, generates MIDI events, and drives real-time harmonization. It explores an expressive, hands-free alternative to a traditional MIDI controller.",
+        "roleTitles": [
+          "Developer"
+        ],
+        "roleDescription": "Harmonza is a computer-vision music interaction tool that recognizes hand gestures, maps them to chords, generates MIDI events, and drives real-time harmonization. It explores an expressive, hands-free alternative to a traditional MIDI controller.",
+        "stack": [
+          "Python",
+          "OpenCV",
+          "MediaPipe",
+          "MIDI",
+          "VST"
+        ],
+        "liveUrl": "https://harmonza.kevinography.in",
+        "sourceCode": "https://github.com/kevinkr7/Harmonza",
+        "section01": {
+          "title": "Gesture in. Harmony out.",
+          "description": "A live gesture-recognition flow maps movements to chord choices, creates MIDI events, and sends the musical output through a VST-based harmonization engine. The repository includes a Python application and engine, plus a Java UI alternative."
+        },
+        "section02": {
+          "title": "Technology stack",
+          "description": "A computer-vision input layer is connected to musical-event generation and a live audio/harmonization workflow.",
+          "items": [
+            {
+              "name": "Python",
+              "role": "Core engine",
+              "icon": "python"
+            },
+            {
+              "name": "OpenCV",
+              "role": "Hand gesture recognition",
+              "icon": "opencv"
+            },
+            {
+              "name": "MIDI",
+              "role": "Chord event generation",
+              "icon": "midi"
+            },
+            {
+              "name": "VST",
+              "role": "Real-time harmonization",
+              "icon": "vst"
+            },
+            {
+              "name": "PyQt6",
+              "role": "Desktop Interface",
+              "icon": "pyqt"
+            }
+          ]
+        },
+        "section03": {
+          "title": "What’s next?",
+          "description": "Reduce response latency, expand the gesture-to-chord vocabulary, and test the mapping in varied lighting and performance conditions so gestures remain expressive and reliable.",
+          "nextProject": "Percepta"
+        },
+        "challenges": "A live gesture-recognition flow maps movements to chord choices, creates MIDI events, and sends the musical output through a VST-based harmonization engine. The repository includes a Python application and engine, plus a Java UI alternative.\n\nA computer-vision input layer is connected to musical-event generation and a live audio/harmonization workflow."
+      },
+      "gallery": [
+        {
+          "url": "/assets/projects/harmonza/preview-1.webp",
+          "alt": "Harmonza Preview 1",
+          "aspect": 1.7777777777777777
+        },
+        {
+          "url": "/assets/projects/harmonza/preview-2.webp",
+          "alt": "Harmonza Preview 2",
+          "aspect": 1.7777777777777777
+        },
+        {
+          "url": "/assets/projects/harmonza/preview-3.webp",
+          "alt": "Harmonza Preview 3",
+          "aspect": 1.7777777777777777
+        },
+        {
+          "url": "/assets/projects/harmonza/preview-4.webp",
+          "alt": "Harmonza Preview 4",
+          "aspect": 1.7777777777777777
+        }
+      ]
+    },
+    {
+      "slug": "percepta",
+      "name": "",
+      "nameInk": "#e0e0e0",
+      "image": "/assets/lite-hero/Percepta.webp",
+      "ogImage": {
+        "url": "/assets/projects/percepta/preview-1.webp",
+        "alt": "Percepta - Discover how you approach information",
+        "width": 1920,
+        "height": 1080
+      },
+      "hero3d": "/assets/projects/percepta/hero-3d.webp",
+      "editorial": {
+        "overline": "PROJECT",
+        "title": "Percepta",
+        "year": 2026,
+        "yearRange": "2026",
+        "tagline": "Discover how you approach information",
+        "description": "Percepta is a JavaFX psychometric assessment app that uses a structured 15-question questionnaire to estimate a user's dominant perception style, then explains the result with animated visual feedback.",
+        "roleTitles": [
+          "Developer"
+        ],
+        "roleDescription": "Percepta is a JavaFX psychometric assessment app that uses a structured 15-question questionnaire to estimate a user's dominant perception style, then explains the result with animated visual feedback.",
+        "stack": [
+          "Java",
+          "JavaFX",
+          "Maven",
+          "MVC"
+        ],
+        "liveUrl": "https://percepta.kevinography.in",
+        "sourceCode": "https://github.com/kevinkr7/Percepta-Perception-Test",
+        "section01": {
+          "title": "A perception profile in minutes",
+          "description": "Users answer 15 perception-oriented questions. The application calculates scores across visual, auditory, kinesthetic, analytical, and intuitive categories, highlights the dominant result with an explanation, visual percentage bars, and an option to retake the test."
+        },
+        "section02": {
+          "title": "Technology stack",
+          "description": "A modular desktop application built with JavaFX and an MVC structure, using FXML for view composition and CSS for visual styling.",
+          "items": [
+            {
+              "name": "Java",
+              "role": "Application logic",
+              "icon": "java"
+            },
+            {
+              "name": "JavaFX",
+              "role": "Desktop interface",
+              "icon": "javafx"
+            },
+            {
+              "name": "FXML",
+              "role": "View composition",
+              "icon": "fxml"
+            },
+            {
+              "name": "JavaFX CSS",
+              "role": "Visual styling",
+              "icon": "javafxcss"
+            },
+            {
+              "name": "Maven",
+              "role": "Build and dependencies",
+              "icon": "maven"
+            }
+          ]
+        },
+        "section03": {
+          "title": "What’s next?",
+          "description": "Make the interpretation language clear that results are a self-reflection aid rather than a definitive psychological diagnosis, and consider adding accessibility options and clearer breakdowns of scoring.",
+          "nextProject": "Cuisine Commander"
+        },
+        "challenges": "Users answer 15 perception-oriented questions. The application calculates scores across visual, auditory, kinesthetic, analytical, and intuitive categories, highlights the dominant result with an explanation, visual percentage bars, and an option to retake the test.\n\nA modular desktop application built with JavaFX and an MVC structure, using FXML for view composition and CSS for visual styling."
+      },
+      "gallery": [
+        {
+          "url": "/assets/projects/percepta/preview-1.webp",
+          "alt": "Percepta Preview 1",
+          "aspect": 1.7777777777777777
+        },
+        {
+          "url": "/assets/projects/percepta/preview-2.webp",
+          "alt": "Percepta Preview 2",
+          "aspect": 1.7777777777777777
+        },
+        {
+          "url": "/assets/projects/percepta/preview-3.webp",
+          "alt": "Percepta Preview 3",
+          "aspect": 1.7777777777777777
+        },
+        {
+          "url": "/assets/projects/percepta/preview-4.webp",
+          "alt": "Percepta Preview 4",
+          "aspect": 1.7777777777777777
+        }
+      ]
+    },
+    {
+      "slug": "canteen-cuisine-commander",
+      "name": "",
+      "nameInk": "#141414",
+      "image": "/assets/lite-hero/Canteen%20Cuisine%20Commander.webp",
+      "ogImage": {
+        "url": "/assets/projects/canteen-cuisine-commander/preview-1.webp",
+        "alt": "Canteen Cuisine Commander - Skip the queue. Order ahead.",
+        "width": 1920,
+        "height": 1080
+      },
+      "hero3d": "/assets/projects/canteen-cuisine-commander/hero-3d.webp",
+      "editorial": {
+        "overline": "PROJECT",
+        "title": "Canteen Cuisine Commander",
+        "year": 2025,
+        "yearRange": "2025–2026",
+        "tagline": "Skip the queue. Order ahead.",
+        "description": "Cuisine Commander is a campus canteen ordering platform for students, staff, and campus workers. It lets users browse a centralized menu, pre-order food, track orders, and earn reward points through role-based dashboards.",
+        "roleTitles": [
+          "Developer"
+        ],
+        "roleDescription": "Cuisine Commander is a campus canteen ordering platform for students, staff, and campus workers. It lets users browse a centralized menu, pre-order food, track orders, and earn reward points through role-based dashboards.",
+        "stack": [
+          "PHP",
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "MySQL"
+        ],
+        "liveUrl": "https://canteen.kevinography.in/",
+        "sourceCode": "https://github.com/kevinkr7/Canteen_Cuisine_Commander",
+        "section01": {
+          "title": "A smoother campus food run",
+          "description": "Users register by role, browse available dishes, place orders before reaching the canteen, and manage their cart and order history. A points-based rewards system encourages regular usage, while separate dashboards and order workflows support campus users."
+        },
+        "section02": {
+          "title": "Technology stack",
+          "description": "A server-rendered web application using PHP for application logic, MySQL for data handling, and a straightforward HTML, CSS, and JavaScript interface.",
+          "items": [
+            {
+              "name": "PHP",
+              "role": "Server-side application",
+              "icon": "php"
+            },
+            {
+              "name": "MySQL",
+              "role": "Data and user management",
+              "icon": "mysql"
+            },
+            {
+              "name": "HTML",
+              "role": "Page structure",
+              "icon": "html"
+            },
+            {
+              "name": "CSS",
+              "role": "Responsive styling",
+              "icon": "css"
+            },
+            {
+              "name": "JavaScript",
+              "role": "Client-side interactions",
+              "icon": "javascript"
+            }
+          ]
+        },
+        "section03": {
+          "title": "What’s next?",
+          "description": "Build on the ordering workflow with verified real-time order status, clearer canteen-side order handling, and carefully scoped payment and administrative reporting features.",
+          "nextProject": "Spotifix"
+        },
+        "challenges": "Users register by role, browse available dishes, place orders before reaching the canteen, and manage their cart and order history. A points-based rewards system encourages regular usage, while separate dashboards and order workflows support campus users.\n\nA server-rendered web application using PHP for application logic, MySQL for data handling, and a straightforward HTML, CSS, and JavaScript interface."
+      },
+      "gallery": [
+        {
+          "url": "/assets/projects/canteen-cuisine-commander/preview-1.webp",
+          "alt": "Canteen Cuisine Commander Preview 1",
+          "aspect": 1.7777777777777777
+        },
+        {
+          "url": "/assets/projects/canteen-cuisine-commander/preview-2.webp",
+          "alt": "Canteen Cuisine Commander Preview 2",
+          "aspect": 1.7777777777777777
+        },
+        {
+          "url": "/assets/projects/canteen-cuisine-commander/preview-3.webp",
+          "alt": "Canteen Cuisine Commander Preview 3",
+          "aspect": 1.7777777777777777
+        },
+        {
+          "url": "/assets/projects/canteen-cuisine-commander/preview-4.webp",
+          "alt": "Canteen Cuisine Commander Preview 4",
+          "aspect": 1.7777777777777777
+        }
+      ]
+    },
+    {
+      "slug": "spotifix",
+      "name": "",
+      "nameInk": "#e0e0e0",
+      "image": "/assets/lite-hero/Spotifix.webp",
+      "ogImage": {
+        "url": "/assets/projects/spotifix/preview-1.webp",
+        "alt": "Spotifix - Your music, mood, and listening space",
+        "width": 1920,
+        "height": 1080
+      },
+      "hero3d": "/assets/projects/spotifix/hero-3d.webp",
+      "editorial": {
+        "overline": "PROJECT",
+        "title": "Spotifix",
+        "year": 2026,
+        "yearRange": "2026",
+        "tagline": "Your music, mood, and listening space",
+        "description": "Spotifix is a music-listening web application with song discovery and search, a player interface, playlist/song management, user profiles, and a mood dashboard with weekly insights. Its repository pairs a React frontend with a Java Spring Boot backend.",
+        "roleTitles": [
+          "Developer"
+        ],
+        "roleDescription": "Spotifix is a music-listening web application with song discovery and search, a player interface, playlist/song management, user profiles, and a mood dashboard with weekly insights. Its repository pairs a React frontend with a Java Spring Boot backend.",
+        "stack": [
+          "React",
+          "Java",
+          "Spring Boot",
+          "PostgreSQL"
+        ],
+        "liveUrl": "https://spotifix.kevinography.in/",
+        "sourceCode": "https://github.com/kevinkr7/Spotifix",
+        "section01": {
+          "title": "Find a track for the moment",
+          "description": "Explore the music library, search and manage songs, interact with a persistent player, and view mood-oriented listening summaries. Profile and song management surfaces bring the listening experience together in a personalized interface."
+        },
+        "section02": {
+          "title": "Technology stack",
+          "description": "A React client sits alongside a Spring Boot application using Spring MVC, Thymeleaf, Spring Data JPA, and PostgreSQL dependencies. Verify the precise client/server integration and deployed database configuration before publishing architecture claims.",
+          "items": [
+            {
+              "name": "React",
+              "role": "Music interface",
+              "icon": "react"
+            },
+            {
+              "name": "Spring Boot",
+              "role": "Backend application",
+              "icon": "springboot"
+            },
+            {
+              "name": "[coming soon]",
+              "role": "[coming soon]",
+              "icon": "comingsoon"
+            },
+            {
+              "name": "PostgreSQL",
+              "role": "Relational database",
+              "icon": "postgresql"
+            },
+            {
+              "name": "[coming soon]",
+              "role": "[coming soon]",
+              "icon": "comingsoon"
+            }
+          ]
+        },
+        "section03": {
+          "title": "What’s next?",
+          "description": "Refine the connection between listening activity and mood insights, improve discovery and player usability, and make the insights transparent about how they are derived.",
+          "nextProject": "Evalion"
+        },
+        "challenges": "Explore the music library, search and manage songs, interact with a persistent player, and view mood-oriented listening summaries. Profile and song management surfaces bring the listening experience together in a personalized interface.\n\nA React client sits alongside a Spring Boot application using Spring MVC, Thymeleaf, Spring Data JPA, and PostgreSQL dependencies. Verify the precise client/server integration and deployed database configuration before publishing architecture claims."
+      },
+      "gallery": [
+        {
+          "url": "/assets/projects/spotifix/preview-1.webp",
+          "alt": "Spotifix Preview 1",
+          "aspect": 1.7777777777777777
+        },
+        {
+          "url": "/assets/projects/spotifix/preview-2.webp",
+          "alt": "Spotifix Preview 2",
+          "aspect": 1.7777777777777777
+        },
+        {
+          "url": "/assets/projects/spotifix/preview-3.webp",
+          "alt": "Spotifix Preview 3",
+          "aspect": 1.7777777777777777
+        },
+        {
+          "url": "/assets/projects/spotifix/preview-4.webp",
+          "alt": "Spotifix Preview 4",
+          "aspect": 1.7777777777777777
+        }
+      ]
+    },
+    {
+      "slug": "evalion",
+      "name": "",
+      "nameInk": "#141414",
+      "image": "/assets/lite-hero/Evalion.webp",
+      "ogImage": {
+        "url": "/assets/projects/evalion/preview-1.webp",
+        "alt": "Evalion - A fairer, exam-like online assessment experience",
+        "width": 1920,
+        "height": 1080
+      },
+      "hero3d": "/assets/projects/evalion/hero-3d.webp",
+      "editorial": {
+        "overline": "PROJECT",
+        "title": "Evalion",
+        "year": 2025,
+        "yearRange": "2025",
+        "tagline": "A fairer, exam-like online assessment experience",
+        "description": "Evalion is a web-based MCQ exam platform designed for timed practice and classroom use. It supports student registration, role-based exam administration, Excel-based question imports, automatic scoring, scorecards, and tab-switch detection.",
+        "roleTitles": [
+          "Developer"
+        ],
+        "roleDescription": "Evalion is a web-based MCQ exam platform designed for timed practice and classroom use. It supports student registration, role-based exam administration, Excel-based question imports, automatic scoring, scorecards, and tab-switch detection.",
+        "stack": [
+          "React",
+          "TypeScript",
+          "Tailwind CSS",
+          "Firebase"
+        ],
+        "liveUrl": "https://evalion.kevinography.in",
+        "sourceCode": "https://github.com/kevinkr7/Evalion-Smart-MCQ-Exam-Platform",
+        "section01": {
+          "title": "From question bank to scorecard",
+          "description": "Administrators create and manage assessments, import questions from spreadsheets, control score release, and review generated scorecards. Students register and complete timed MCQ tests in a responsive interface with tab-switch detection intended to discourage malpractice."
+        },
+        "section02": {
+          "title": "Technology stack",
+          "description": "A Vite-based React and TypeScript frontend styled with Tailwind CSS and shadcn/ui, using Firebase services for hosting and authentication. A functions directory supports the project's server-side workflow.",
+          "items": [
+            {
+              "name": "React",
+              "role": "Assessment interface",
+              "icon": "react"
+            },
+            {
+              "name": "TypeScript",
+              "role": "Type-safe application",
+              "icon": "typescript"
+            },
+            {
+              "name": "Tailwind CSS",
+              "role": "Interface design system",
+              "icon": "tailwind"
+            },
+            {
+              "name": "Firebase",
+              "role": "Hosting and authentication",
+              "icon": "firebase"
+            },
+            {
+              "name": "CSV",
+              "role": "Question-bank workflow",
+              "icon": "csv"
+            }
+          ]
+        },
+        "section03": {
+          "title": "What’s next?",
+          "description": "Strengthen question validation and accessibility, make assessment integrity events transparent, and improve reporting for instructors as the platform grows beyond initial classroom use.",
+          "nextProject": "Cesium"
+        },
+        "challenges": "Administrators create and manage assessments, import questions from spreadsheets, control score release, and review generated scorecards. Students register and complete timed MCQ tests in a responsive interface with tab-switch detection intended to discourage malpractice.\n\nA Vite-based React and TypeScript frontend styled with Tailwind CSS and shadcn/ui, using Firebase services for hosting and authentication. A functions directory supports the project's server-side workflow."
+      },
+      "gallery": [
+        {
+          "url": "/assets/projects/evalion/preview-1.webp",
+          "alt": "Evalion Preview 1",
+          "aspect": 1.7777777777777777
+        },
+        {
+          "url": "/assets/projects/evalion/preview-2.webp",
+          "alt": "Evalion Preview 2",
+          "aspect": 1.7777777777777777
+        },
+        {
+          "url": "/assets/projects/evalion/preview-3.webp",
+          "alt": "Evalion Preview 3",
+          "aspect": 1.7777777777777777
+        },
+        {
+          "url": "/assets/projects/evalion/preview-4.webp",
+          "alt": "Evalion Preview 4",
+          "aspect": 1.7777777777777777
+        }
+      ]
+    },
+    {
+      "slug": "cesium",
+      "name": "",
+      "nameInk": "#e0e0e0",
+      "image": "/assets/lite-hero/Cesium.webp",
+      "ogImage": {
+        "url": "/assets/projects/cesium/preview-1.webp",
+        "alt": "Cesium - Immersive, interest-based social discovery",
+        "width": 1920,
+        "height": 1080
+      },
+      "hero3d": "/assets/projects/cesium/hero-3d.webp",
+      "editorial": {
+        "overline": "PROJECT",
+        "title": "Cesium",
+        "year": 2026,
+        "yearRange": "2026",
+        "tagline": "Immersive, interest-based social discovery",
+        "description": "Cesium is a social discovery platform designed to connect people through niche interests and explainable common ground. Its visual direction draws on an interactive constellation metaphor, helping users explore interests, discover communities, and find natural starting points for conversation.",
+        "roleTitles": [
+          "Full-stack Developer"
+        ],
+        "roleDescription": "Cesium is a social discovery platform designed to connect people through niche interests and explainable common ground. Its visual direction draws on an interactive constellation metaphor, helping users explore interests, discover communities, and find natural starting points for conversation.",
+        "stack": [
+          "React",
+          "TypeScript",
+          "Supabase",
+          "Tailwind CSS"
+        ],
+        "liveUrl": "https://cesium.kevinography.in",
+        "sourceCode": "https://github.com/kevinkr7/Cesium",
+        "section01": {
+          "title": "Different interests. Unexpected connections.",
+          "description": "The product vision centers on an Interest Constellation, transparent interest-overlap discovery, conversation starters, complementary-interest discovery, and small communities. The repository README is explicit that it is an architecture blueprint; list only features verified as implemented in the live build."
+        },
+        "section02": {
+          "title": "Technology stack",
+          "description": "A React and TypeScript application with Supabase planned for authentication and data services, PostgreSQL as the relational layer, and Tailwind CSS for the interface. The current repository includes Vite, automated test tooling, and Supabase project structure.",
+          "items": [
+            {
+              "name": "React",
+              "role": "Frontend UI",
+              "icon": "react"
+            },
+            {
+              "name": "TypeScript",
+              "role": "Type safety",
+              "icon": "typescript"
+            },
+            {
+              "name": "Supabase",
+              "role": "Auth and data platform",
+              "icon": "supabase"
+            },
+            {
+              "name": "Supabase",
+              "role": "Relational data model",
+              "icon": "supabase"
+            },
+            {
+              "name": "Tailwind CSS",
+              "role": "UI styling",
+              "icon": "tailwind"
+            }
+          ]
+        },
+        "section03": {
+          "title": "What’s next?",
+          "description": "Turn the blueprint into verified, end-to-end flows: connect real profile and interest data, make discovery explanations traceable, enforce consent and privacy at the data layer, and test connection, messaging, and community workflows before describing them as shipped.",
+          "nextProject": "Noctalink"
+        },
+        "challenges": "The product vision centers on an Interest Constellation, transparent interest-overlap discovery, conversation starters, complementary-interest discovery, and small communities. The repository README is explicit that it is an architecture blueprint; list only features verified as implemented in the live build.\n\nA React and TypeScript application with Supabase planned for authentication and data services, PostgreSQL as the relational layer, and Tailwind CSS for the interface. The current repository includes Vite, automated test tooling, and Supabase project structure."
+      },
+      "gallery": [
+        {
+          "url": "/assets/projects/cesium/preview-1.webp",
+          "alt": "Cesium Preview 1",
+          "aspect": 1.7777777777777777
+        },
+        {
+          "url": "/assets/projects/cesium/preview-2.webp",
+          "alt": "Cesium Preview 2",
+          "aspect": 1.7777777777777777
+        },
+        {
+          "url": "/assets/projects/cesium/preview-3.webp",
+          "alt": "Cesium Preview 3",
+          "aspect": 1.7777777777777777
+        },
+        {
+          "url": "/assets/projects/cesium/preview-4.webp",
+          "alt": "Cesium Preview 4",
+          "aspect": 1.7777777777777777
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 48" fill="none">
+  <!-- Barcode vertical bars -->
+  <rect x="0" y="0" width="3" height="36" fill="#e0e0e0" />
+  <rect x="5" y="0" width="1.5" height="36" fill="#e0e0e0" />
+  <rect x="9" y="0" width="4.5" height="36" fill="#e0e0e0" />
+  <rect x="16" y="0" width="1.5" height="36" fill="#e0e0e0" />
+  <rect x="20" y="0" width="3" height="36" fill="#e0e0e0" />
+  <rect x="25" y="0" width="6" height="36" fill="#e0e0e0" />
+  <rect x="33" y="0" width="1.5" height="36" fill="#e0e0e0" />
+  <rect x="37" y="0" width="4.5" height="36" fill="#e0e0e0" />
+  <rect x="44" y="0" width="1.5" height="36" fill="#e0e0e0" />
+  <rect x="48" y="0" width="3" height="36" fill="#e0e0e0" />
+  <rect x="54" y="0" width="1.5" height="36" fill="#e0e0e0" />
+  <rect x="58" y="0" width="6" height="36" fill="#e0e0e0" />
+  <rect x="66" y="0" width="3" height="36" fill="#e0e0e0" />
+  <rect x="71" y="0" width="1.5" height="36" fill="#e0e0e0" />
+  <rect x="75" y="0" width="4.5" height="36" fill="#e0e0e0" />
+  <rect x="82" y="0" width="1.5" height="36" fill="#e0e0e0" />
+  <rect x="86" y="0" width="3" height="36" fill="#e0e0e0" />
+  <rect x="91" y="0" width="6" height="36" fill="#e0e0e0" />
+  <rect x="99" y="0" width="1.5" height="36" fill="#e0e0e0" />
+  <rect x="103" y="0" width="4.5" height="36" fill="#e0e0e0" />
+  <rect x="110" y="0" width="1.5" height="36" fill="#e0e0e0" />
+  <rect x="114" y="0" width="3" height="36" fill="#e0e0e0" />
+  <rect x="120" y="0" width="1.5" height="36" fill="#e0e0e0" />
+  <rect x="124" y="0" width="6" height="36" fill="#e0e0e0" />
+  <rect x="132" y="0" width="3" height="36" fill="#e0e0e0" />
+  <rect x="137" y="0" width="1.5" height="36" fill="#e0e0e0" />
+  <rect x="141" y="0" width="4.5" height="36" fill="#e0e0e0" />
+  <rect x="148" y="0" width="1.5" height="36" fill="#e0e0e0" />
+  <rect x="152" y="0" width="3" height="36" fill="#e0e0e0" />
+  <rect x="157" y="0" width="3" height="36" fill="#e0e0e0" />
+  <!-- Text label below -->
+  <text x="0" y="46" fill="#888888" font-family="monospace, monospace" font-size="5.5" letter-spacing="0.5">DESIGN FOR A BRIGHTER TOMORROW</text>
+</svg>
