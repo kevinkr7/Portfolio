@@ -34,18 +34,32 @@ npm run dev
 npm run verify
 ```
 
-## Cloudflare Pages Deployment
+## Cloudflare Deployment
 
-This repository is ready for immediate deployment on **Cloudflare Pages**:
+This repository supports both **Cloudflare Workers (with Static Assets)** and **Cloudflare Pages**:
 
-1. Connect your GitHub repository to **Cloudflare Pages**.
-2. Configure build settings:
-   - **Framework preset**: `None`
-   - **Build command**: `npm run build`
-   - **Build output directory**: `dist`
-3. Click **Save and Deploy**.
+### Option A: Cloudflare Workers (Wrangler Deploy)
+If your Cloudflare project runs `npx wrangler deploy`:
+- The repository includes [wrangler.toml](file:///c:/Users/kevin/.codex/visualizations/2026/10/21/01a15de3-cccb-7130-8bef-34e1b8b8bbfc/wrangler.toml) and [wrangler.jsonc](file:///c:/Users/kevin/.codex/visualizations/2026/10/21/01a15de3-cccb-7130-8bef-34e1b8b8bbfc/wrangler.jsonc) pre-configured with:
+  ```toml
+  name = "kevinography"
+  compatibility_date = "2026-10-30"
 
-All static routes, assets, audio files, and the client-side SPA fallback (`dist/404.html`) will be served globally on Cloudflare's edge network.
+  [assets]
+  directory = "./dist"
+  not_found_handling = "single-page-application"
+  ```
+- **Build command**: `npm run build`
+- **Deploy command**: `npx wrangler deploy`
+
+### Option B: Cloudflare Pages (Direct Static Hosting)
+If your Cloudflare project is set up under **Pages**:
+- **Framework preset**: `None`
+- **Build command**: `npm run build`
+- **Build output directory**: `dist`
+- **Deploy command**: *(leave empty)*
+
+All static routes, 3D WebGPU scenes, audio tracks (`dist/voice/*.mp3`), and SPA client routing via `dist/404.html` are served globally on Cloudflare's edge network.
 
 ## Project Structure
 
